@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T13:07:50.521Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="LSunUDx9gv-BpCkMenFq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T13:20:58.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eeKrWnl5-nm7uZKTfSoO" version="21.6.6" type="github">
   <diagram name="第 1 页" id="y-QtgIW0JvLux_TiPauV">
-    <mxGraphModel>
+    <mxGraphModel dx="1349" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-1" value="react 合成事件处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-2" value="原生事件处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-3" value="setTimeout" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="404" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-4" value="promise" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-5" value="任何其他事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="404" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-7" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-9" value="&lt;b&gt;React 18 之前&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-10" value="react 合成事件处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-11" value="原生事件处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-12" value="setTimeout" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="404" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-13" value="promise" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-14" value="任何其他事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="404" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-15" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-16" value="&lt;b&gt;React 18 之后&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-17" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="314" y="380" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-18" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-19" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vdeCSzHVFEEeKmtNSoB6-20" value="可以批处理" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
